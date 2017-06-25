@@ -1,0 +1,109 @@
+/* IMPORTAMOS LAS FONT */
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+/* GENERAL */
+a {
+  text-decoration: none !important;
+}
+
+/* INTRO */
+#intro {
+  background-color: #309dbe;
+  width: 100%;
+  display: inline-block;
+}
+
+#intro #content {
+  width: 75%;
+  margin: 0 auto;
+}
+
+#intro #content li {
+  float: left;
+  padding: 10px 15px;
+  transition: 0.7s;
+}
+
+#intro #content li:hover {
+  background: #0394CB;
+  color: #fff;
+}
+
+#intro #content li a {
+  font-size: 14px;
+  font-family: Open sans;
+  color: #f5f5f5;
+}
+
+#intro #content div {
+  font-family: Open sans;
+}
+
+#intro #content div.intro {
+  margin-top: 10px;
+  font-family: Open sans;
+  font-size: 18px;
+}
+
+/* FOOTER */
+#footer {
+  background: #333;
+  display: inline-block;
+  width: 100%;
+  border-top: 1px solid #2b2b2b;
+}
+
+#footer #content {
+  width: 75%;
+  margin: 0 auto;
+}
+
+#footer #contentmedia #footer-noticias {
+  float: left;
+  width: 40%;
+  padding: 30px 0;
+  margin-right: 20px;
+}
+
+#footer #contentmedia #footer-noticias div {
+  font-family: Oswald;
+  color: #fff;
+}
+
+#footer #contentmedia #footer-noticias ul.noticias li {
+  padding: 10px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+#footer #contentmedia #footer-noticias ul.noticias li a {
+  color: #f9f9f9;
+  font-family: Open sans;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+#footer #contentmedia #footer-comentarios {
+  float: right;
+  width: 40%;
+  padding: 30px 0;
+  margin-left: 20px;
+}
+
+#footer #contentmedia #footer-comentarios div {
+  font-family: Oswald;
+  color: #fff;
+}
+
+#footer #contentmedia #footer-comentarios ul.comentarios li {
+  padding: 10px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+#footer #contentmedia #footer-comentarios ul.comentarios li a {
+  color: #f9f9f9;
+  font-family: Open sans;
+  font-size: 12px;
+  text-decoration: none;
+}

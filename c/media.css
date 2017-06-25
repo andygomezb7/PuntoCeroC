@@ -1,0 +1,310 @@
+/*--------------------------------------------------------
+MEDIA QUERIES
+--------------------------------------------------------*/
+
+@media only screen and (min-width: 1300px) {
+
+/* ENCABEZADO */
+#encabezado { width: 75%; margin: 0 auto; }
+
+#encabezado #content {}
+
+#encabezado #content #logo { float: left; }
+
+#encabezado #content #menu-top { float: right; width: 43%; padding: 20px 0; }
+
+#encabezado #content #menu-top #top { display: inline-block; border-bottom: 1px dotted #bababa; padding: 10px 0; float: right; }
+
+#encabezado #content #menu-top #bottom { display: inline-block; padding: 10px 0; float: right; background: #fff; }
+
+/* INTRO - NAVIGATION */
+#intro { background-color: #309dbe; width: 100%; display: inline-block; }
+
+#intro #content { width: 75%; margin: 0 auto; }
+
+#intro #content li { float: left; padding: 10px 15px; transition: 0.7s; }
+
+#intro #content li:hover { background: #0394CB; color: #fff; }
+
+#intro #content li a { font-size: 14px; font-family: Open sans; color: #f5f5f5; }
+
+#intro #content div { font-family: Open sans; }
+
+#intro #content div.intro { margin-top: 10px; font-family: Open sans; font-size: 18px; }
+
+/* INTRO 2 - NAVIGATION 2 */
+#intro2 { display: none; }
+
+/* CONTENTMEDIA */
+#contentmedia { margin: 25px auto; width: 75%; }
+
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+
+/* ENCABEZADO */
+#encabezado { width: 90%; margin: 0 auto; }
+
+#encabezado #content {}
+
+#encabezado #content #logo { float: left; }
+
+#encabezado #content #menu-top { float: right; width: 40%; padding: 20px 0; }
+
+#encabezado #content #menu-top #top { display: inline-block; border-bottom: 1px dotted #bababa; padding: 10px 0; float: right; }
+
+#encabezado #content #menu-top #bottom { display: inline-block; padding: 10px 0; float: right; background: #fff; }
+
+/* INTRO - NAVIGATION */
+#intro { background-color: #309dbe; width: 100%; display: inline-block; }
+
+#intro #content { width: 75%; margin: 0 auto; }
+
+#intro #content li { float: left; padding: 10px 15px; transition: 0.7s; }
+
+#intro #content li:hover { background: #0394CB; color: #fff; }
+
+#intro #content li a { font-size: 14px; font-family: Open sans; color: #f5f5f5; }
+
+#intro #content div { font-family: Open sans; }
+
+#intro #content div.intro { margin-top: 10px; font-family: Open sans; font-size: 18px; }
+
+/* INTRO 2 - NAVIGATION 2 */
+#intro2 { display: none; }
+
+/* CONTENTMEDIA */
+#contentmedia { margin: 25px auto; width: 75%; }
+
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1099px) {
+
+/* ENCABEZADO */
+#encabezado { width: 90%; margin: 0 auto; }
+
+#encabezado #content {}
+
+#encabezado #content #logo { float: left; }
+
+#encabezado #content #menu-top { float: right; width: 45%; padding: 20px 0; }
+
+#encabezado #content #menu-top #top { display: inline-block; border-bottom: 1px dotted #bababa; padding: 10px 0; float: right; }
+
+#encabezado #content #menu-top #bottom { display: inline-block; padding: 10px 0; float: right; background: #fff; }
+
+/* INTRO - NAVIGATION */
+#intro { background-color: #309dbe; width: 100%; display: inline-block; }
+
+#intro #content { width: 85%; margin: 0 auto; }
+
+#intro #content li { float: left; padding: 10px 15px; transition: 0.7s; }
+
+#intro #content li:hover { background: #0394CB; color: #fff; }
+
+#intro #content li a { font-size: 14px; font-family: Open sans; color: #f5f5f5; }
+
+#intro #content div { font-family: Open sans; }
+
+#intro #content div.intro { margin-top: 10px; font-family: Open sans; font-size: 18px; }
+
+/* INTRO 2 - NAVIGATION 2 */
+#intro2 { display: none; }
+
+/* CONTENTMEDIA */
+#contentmedia { margin: 25px auto; width: 80%; }
+
+}
+
+@media only screen and (min-width: 800px) and (max-width: 959px) {
+
+/* ENCABEZADO */
+#encabezado { width: 90%; margin: 0 auto; }
+
+#encabezado #content {}
+
+#encabezado #content #logo { float: left; }
+
+#encabezado #content #menu-top { float: right; width: 55%; padding: 20px 0; }
+
+#encabezado #content #menu-top #top { display: inline-block; border-bottom: 1px dotted #bababa; padding: 10px 0; float: right; }
+
+#encabezado #content #menu-top #bottom { display: inline-block; padding: 10px 0; float: right; background: #fff; }
+
+/* INTRO - NAVIGATION */
+#intro { background-color: #309dbe; width: 100%; display: inline-block; }
+
+#intro #content { width: 97%; margin: 0 auto; }
+
+#intro #content li { float: left; padding: 10px 15px; transition: 0.7s; }
+
+#intro #content li:hover { background: #0394CB; color: #fff; }
+
+#intro #content li a { font-size: 14px; font-family: Open sans; color: #f5f5f5; }
+
+#intro #content div { font-family: Open sans; }
+
+#intro #content div.intro { margin-top: 10px; font-family: Open sans; font-size: 18px; }
+
+/* INTRO 2 - NAVIGATION 2 */
+#intro2 { display: none; }
+
+/* CONTENTMEDIA */
+#contentmedia { margin: 25px auto; width: 92%; }
+
+}
+
+@media only screen and (min-width: 700px) and (max-width: 799px) {
+
+/* INTRO - NAVIGATION */
+#intro { background-color: #309dbe; width: 100%; display: inline-block; }
+
+#intro #content { width: 96%; margin: 0 auto; }
+
+#intro #content li { float: left; padding: 10px 12px; transition: 0.7s; }
+
+#intro #content li:hover { background: #0394CB; color: #fff; }
+
+#intro #content li a { font-size: 12px; font-family: Open sans; color: #f5f5f5; }
+
+#intro #content div { font-family: Open sans; }
+
+#intro #content div.intro { margin-top: 10px; font-family: Open sans; font-size: 18px; }
+
+/* INTRO 2 - NAVIGATION 2 */
+#intro2 { display: none; }
+
+/* CONTENTMEDIA */
+#contentmedia { margin: 25px auto; width: 90%; }
+
+/* RIGHT NONE */
+#right-none { display: none; }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 699px) {
+
+/* CONTENTMEDIA */
+#contentmedia { margin: 25px auto; width: 98.5%; }
+
+}
+
+@media only screen and (min-width: 0px) and (max-width: 699px) {
+
+/* INTRO - NAVIGATION */
+#intro { display: none; }
+
+/* INTRO 2 - NAVIGATION 2 */
+#intro2 { display: block; width: 100%; text-align: center; }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 799px) {
+
+/* ENCABEZADO */
+#encabezado { width: 100%; margin: 0 auto; text-align: center; }
+
+#encabezado #content {}
+
+#encabezado #content #logo { float: left; text-align: center; width: 100%; }
+
+#encabezado #content #menu-top { width: 100%; padding: 20px 0; text-align: center; }
+
+#encabezado #content #menu-top #top { display: inline-block; padding: 10px 0; width: 100%; text-align: center; }
+
+#encabezado #content #menu-top #bottom { background: #fff; display: none; }
+
+/* RIGHT NONE */
+#right-none { display: none; }
+
+}
+
+@media only screen and (min-width: 480px) {
+
+/* IMG */
+#img { float: left; width: 26%; }
+
+/* NOTICIAS RELACIONADAS */
+#noticias-relacionadas { display: inline-block; width: 30%; float: left; margin-right: 3%; }
+
+}
+
+@media only screen and (max-width: 479px) {
+
+/* ENCABEZADO */
+#encabezado { width: 100%; margin: 0 auto; text-align: center; }
+
+#encabezado #content {}
+
+#encabezado #content #logo { float: left; text-align: center; width: 100%; }
+
+#encabezado #content #menu-top { width: 100%; padding: 20px 0; text-align: center; }
+
+#encabezado #content #menu-top #top { display: inline-block; padding: 10px 0; width: 100%; text-align: center; }
+
+#encabezado #content #menu-top #top span#none { display: none; }
+
+#encabezado #content #menu-top #bottom { background: #fff; display: none; }
+
+/* RIGHT NONE */
+#right-none { display: none; }
+
+/* IMG */
+#img { float: left; width: 23%; }
+
+/* CANTIDAD COMENTARIOS */
+#cantidad-comentarios { display: none; }
+
+/* NOTICIAS RELACIONADAS */
+#noticias-relacionadas { display: inline-block; width: 100%; border-bottom: 1px dotted #eee; padding: 10px 0; }
+
+}
+
+@media only screen and (max-width: 799px) {
+
+/* MOSTRAMOS Y SACAMOS EL FOOTER DEPENDIENDO EL TAMAÑO */
+#footer-ubicacion { display: none; }
+
+}
+
+@media only screen and (min-width: 800px) {
+
+/* BOTTOM */
+#bottom {
+  background: #1c1c1c;
+  padding: 14px 0;
+  display: flex;
+}
+
+#bottom #contentmedia span {
+  color: #fff;
+  font-family: Open sans;
+  font-size: 13px;
+}
+
+/* BOTTOM 2 */
+#bottom2 { display: none; }
+
+}
+
+@media only screen and (max-width: 799px) {
+
+/* BOTTOM */
+#bottom { display: none; }
+
+/* BOTTOM 2 */
+#bottom2 {
+  background: #1c1c1c;
+  padding: 14px 0;
+  display: flex;
+}
+
+#bottom2 #contentmedia { width: 95%; }
+
+#bottom2 #contentmedia span {
+  color: #fff;
+  font-family: Open sans;
+  font-size: 13px;
+}
+
+}
